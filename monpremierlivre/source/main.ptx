@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <docinfo>
+    <macros>\newcommand{\foo}{bar}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+  <book xml:id="monpremierlivre" xml:lang="en-US">
+    <title>MonPremierLivre</title>
+    <chapter xml:id="chapitre-1">
+      <title>Chapitre 1</title>
+        <section>
+          <title>Ma première section</title>
+          <p>Ceci est un premier paragraphe de texte. Celui-ci est beaucoup plus long afin qu'il soit affiché sur deux lignes. Je vous souhaite un bon colloque 2021 de l'AQPC.</p>
+        <p>Voici un deuxième paragraphe.</p>
+        <p>Le paragraphe final</p>
+      </section>
+    </chapter>
+    <chapter xml:id="chapitre-2">
+      <title>Chapitre 2</title>
+    </chapter>
+    <chapter xml:id="chapitre-3">
+      <title>Chapitre 3</title>
+    </chapter>
+  </book>
+</pretext>
